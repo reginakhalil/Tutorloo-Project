@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/gh_logo"
+        android:layout_width="139dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nestedScrollView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/goldenhawks" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="388dp"
+        android:layout_height="730dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/PurpleHeader"
+                android:layout_width="394dp"
+                android:layout_height="150dp"
+                android:background="@color/purple"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/white_backer"
+                android:layout_width="337dp"
+                android:layout_height="325dp"
+                android:background="@drawable/white_rectangle_bar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.568"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/PurpleHeader"
+                app:layout_constraintVertical_bias="0.06" />
+
+            <ImageView
+                android:id="@+id/yellow_circle"
+                android:layout_width="406dp"
+                android:layout_height="261dp"
+                android:contentDescription="The circle that the profile pic goes into"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.006"
+                app:srcCompat="@drawable/yellow_circle" />
+
+            <TextView
+                android:id="@+id/tutor_name"
+                android:layout_width="116dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginBottom="24dp"
+                android:text="Name"
+                android:textSize="9dp"
+                app:layout_constraintBottom_toBottomOf="@+id/white_backer"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.171"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/tutor_year"
+                android:layout_width="107dp"
+                android:layout_height="28dp"
+                android:layout_marginBottom="19dp"
+                android:text="Year"
+                android:textSize="9dp"
+                app:layout_constraintBottom_toTopOf="@+id/tutor_name"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.156"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/tutor_program"
+                android:layout_width="204dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="9dp"
+                android:text="Program"
+                android:textSize="9dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.853"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/tutor_email"
+                android:layout_width="166dp"
+                android:layout_height="33dp"
+                android:layout_marginTop="9dp"
+                android:text="Program"
+                android:textSize="9dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.788"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ratingBar"
+                app:layout_constraintVertical_bias="0.052" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="3"
+                android:theme="@style/RatingBar"
+                app:layout_constraintBottom_toBottomOf="@+id/yellow_circle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/yellow_circle"
+                app:layout_constraintVertical_bias="0.99" />
+
+            <TextView
+                android:id="@+id/white_backer_bio"
+                android:gravity="center|center_vertical"
+                android:layout_width="335dp"
+                android:layout_height="127dp"
+                android:background="@drawable/white_rectangle_bar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/white_backer"
+                app:layout_constraintVertical_bias="0.023" />
+
+            <TextView
+                android:id="@+id/white_backer_hourlyrate"
+                android:gravity="center|center_vertical"
+                android:layout_width="335dp"
+                android:layout_height="71dp"
+                android:background="@drawable/white_rectangle_bar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.526"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/white_backer_bio"
+                app:layout_constraintVertical_bias="0.028" />
+
+            <TextView
+                android:id="@+id/white_backer_courses"
+                android:layout_width="335dp"
+                android:gravity="center|center_vertical"
+                android:layout_height="159dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/white_rectangle_bar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/white_backer_hourlyrate" />
+
+            <Button
+                android:id="@+id/edit_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="148dp"
+                android:layout_marginLeft="148dp"
+                android:layout_marginTop="848dp"
+                android:background="#330072"
+                android:text="Edit Profile"
+                android:textColor="#FFFFFF"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+

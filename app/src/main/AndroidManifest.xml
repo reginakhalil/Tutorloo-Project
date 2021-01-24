@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.CP317.tutorloo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".BoundaryClasses.ProxyActivity"
+            android:theme="@android:style/Theme.NoDisplay"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".BoundaryClasses.StudentActivity"/>
+        <activity android:name=".BoundaryClasses.LoginActivity"/>
+        <activity android:name=".BoundaryClasses.RegisterActivity"/>
+        <activity android:name=".BoundaryClasses.TutorActivity"/>
+        <activity android:name=".BoundaryClasses.HelpViewActivity"/>
+        <activity android:name=".BoundaryClasses.StudentRegisterActivity"/>
+        <activity android:name=".BoundaryClasses.ResetPasswordActivity"/>
+        <activity android:name=".BoundaryClasses.TutorRegisterActivity"/>
+        <activity android:name=".BoundaryClasses.TutorProfileActivity"/>
+        <activity android:name=".BoundaryClasses.StudentProfileActivity"/>
+        <activity android:name=".BoundaryClasses.EditProfileStudentActivity"/>
+        <activity android:name=".BoundaryClasses.TutorListActivity"/>
+        <activity android:name=".BoundaryClasses.EditProfileTutorActivity"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Tutorloo</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    //Strings for the HelpView layout
+    <string name="quick_tips">Quick Tips to get Started!</string>
+    <string name="register">Register</string>
+    <string name="link_to_help_view">Link to help view</string>
+    <string name="app_background">App background</string>
+    <string name="email">Email</string>
+    <string name="wlu_logo">wlu_logo</string>
+    <string name="login_password">login_password</string>
+    <string name="tutorloo">Tutorloo</string>
+    <string name="log_in">Log in</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="leaf_logo">leaf_logo</string>
+    <string name="ab">AB</string>
+    <string name="tutor">Tutor</string>
+    <string name="student">Student</string>
+    <string name="please_select">Please Select:</string>
+    <string name="gh_logo">GH_logo</string>
+    <string name="change_profile">Change Profile</string>
+    <string name="goldenhawkslogo">goldenhawkslogo</string>
+    <string name="previous_button">previous_button</string>
+    <string name="login">login</string>
+    <string name="tutor_login">tutor_login</string>
+    <string name="tutorlogin">tutor login</string>
+    <string name="registeration">register</string>
+    <string name="background">background</string>
+<!--    <string name="student">Student</string>-->
+    <string name="studentregistrbackground">studentregistrbackground</string>
+    <string name="submit">Submit</string>
+    <string name="Email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="year_of_study">Year of Study:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="hourly_fee">Hourly Fee:</string>
+    <string name="program_of_study">Program of Study:</string>
+    <string name="biography">Biography:</string>
+    <string name="courses">Courses:</string>
+    <string name="first_name">First Name:</string>
+    <string name="the_dropdown_menu">The dropdown menu</string>
+    <string name="edit_your_profile_information">Edit your profile information</string>
+    <string name="name">Name</string>
+
+</resources>

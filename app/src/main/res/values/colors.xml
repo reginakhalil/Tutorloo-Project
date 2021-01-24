@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    //Define the common colours
+    <color name= "background_color">#F0EDED</color>
+    <color name= "purple">#330072</color>
+    <color name= "yellow"> #F2A900</color>
+    <color name= "white">#FFFFFF</color>
+    <color name= "light_yellow">#ffffcc</color>
+
+</resources>
